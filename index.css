@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+}
+
+video {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+#ascii {
+	white-space: pre;
+	line-height: 1;
+	z-index: -1;
+	position: absolute;
+}
+
+.tag {
+	border: 1px solid black;
+	color: black;
+	background: white;
+	position: absolute;
+	z-index: 10;
+	padding: 5px 15px;
+	font-family: monospace;
+	top: 90%;
+}
